@@ -22,7 +22,7 @@ module.exports = {
     ];
     let refferalBonus = 0;
     if ([7, 6].includes(days)) {
-    } else if (holidays.includes(moment())) {
+    } else if (holidays.includes(new Date())) {
       refferalBonus = 200;
     } else {
       refferalBonus = 50;
